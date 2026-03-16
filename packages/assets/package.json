@@ -1,0 +1,7 @@
+{
+  "name": "@memry/assets",
+  "exports": {
+    "./images/*": "./images/*",
+    "./fonts/*": "./fonts/*"
+  }
+}
