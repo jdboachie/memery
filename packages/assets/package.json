@@ -1,5 +1,5 @@
 {
-  "name": "@memry/assets",
+  "name": "@memery/assets",
   "exports": {
     "./images/*": "./images/*",
     "./fonts/*": "./fonts/*"
