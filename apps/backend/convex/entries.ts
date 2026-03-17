@@ -4,7 +4,11 @@ import { v } from "convex/values";
 export const get = query({
   args: {},
   handler: async (ctx) => {
-    const entries = await ctx.db.query("entries").collect();
+    const entries = await ctx.db
+      .query("entries")
+      .withIndex("by_creation_time")
+      .order("desc")
+      .collect();
     return entries;
   },
 });
