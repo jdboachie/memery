@@ -43,7 +43,7 @@
 					<div class="flex flex-col gap-2 rounded-lg border bg-background px-4 py-3 shadow-xs">
 						<div class="mb-1 flex items-center justify-between gap-2 text-xs text-muted-foreground">
 							<a href={m.url} target="_blank" title={m.title} class="hover:text-blue-500"
-								>{getDomain(m.url)}</a
+								>{m.title}</a
 							>
 							<span>{formatDate(m._creationTime)}</span>
 						</div>
